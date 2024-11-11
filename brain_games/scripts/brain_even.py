@@ -4,6 +4,7 @@ from brain_games.cli import welcom_user
 
 
 def get_a_number():
+    name = welcom_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     
     run: bool = True
@@ -29,13 +30,12 @@ def get_a_number():
                 break
             if counter == 3:
                 run = False
-                print(f'Congratulations, XXXX') 
+                print(f'Congratulations, {name}') 
         else:
             print("entry only 'yes' or 'no'")
             continue
 
 def main():
-    welcom_user()
     get_a_number()
 
 
