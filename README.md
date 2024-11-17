@@ -6,3 +6,4 @@
 [0.015063, "o", "\u001b]0;habited@habited-BOD-WXX9: ~/Документы/python_project/python-project-49\u0007\u001b[01;32mhabited@habited-BOD-WXX9\u001b[00m:\u001b[01;34m~/Документы/python_project/python-project-49\u001b[00m$ "]
 https://asciinema.org/a/ZY1OgXTlupQuvnHJ45qW5RsDC
 https://asciinema.org/a/UyTlApCFlCsRRws1hLZkd29Od
+https://asciinema.org/a/85DVv57b3z4YAXteRxWzU7TCh

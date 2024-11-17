@@ -12,6 +12,7 @@ packages = [
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:game_parity_check"
 brain-calc = "brain_games.scripts.brain_calc:game_calc"
+brain-gcd = "brain_games.scripts.brain_gcd:game_gcd"
 
 [tool.poetry.dependencies]
 python = "^3.10"
