@@ -15,7 +15,7 @@ def game_parity_check():
         result: str = input('You answer: ')
 
         if result == 'yes' or result == 'no':
-            if counter < 2:
+            if counter != 2:
                 if result == 'yes' and number % 2 == 0:
                     print('Correct!')
                     counter += 1
@@ -25,13 +25,13 @@ def game_parity_check():
                     counter += 1
                     number = random.randint(1, 1000)
                 else:
-                    print(f"'yes' is wrong answer ;(. Correct answer was 'no'.")
+                    print("'yes' is wrong answer ;(. Correct answer was 'no'.")
                     print(f"Let's try again, {name}!")
                     break
             else:
                 print('Correct!')
-                run = False
                 print(f'Congratulations, {name}!')
+                run = False
         else:
             print("entry only 'yes' or 'no'")
             continue
