@@ -32,7 +32,7 @@ def game_parity_check():
             else:
                 print('Correct!')
                 run = False
-                print(f'Congratulations, {name}')
+                print(f'Congratulations, {name}!')
         else:
             print("entry only 'yes' or 'no'")
             continue
