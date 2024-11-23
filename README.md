@@ -8,3 +8,5 @@ https://asciinema.org/a/ZY1OgXTlupQuvnHJ45qW5RsDC
 https://asciinema.org/a/UyTlApCFlCsRRws1hLZkd29Od
 https://asciinema.org/a/85DVv57b3z4YAXteRxWzU7TCh
 https://asciinema.org/a/AsKVOtd9FVk7biD5DYtMqPA2i
+https://asciinema.org/a/UQx4XhZgtSg6Cr5mZqahnqO9X
+https://asciinema.org/a/W7O1686OBsg1lKFZPJMgZxAw2
