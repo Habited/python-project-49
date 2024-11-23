@@ -27,7 +27,7 @@ def game_parity_check():
                 else:
                     print(f"'yes' is wrong answer ;(. "
                           f"Correct answer was 'no'.\n"
-                          f"'Let's try again, {name}!")
+                          f"Let's try again, {name}!")
                     break
             else:
                 print('Correct!')
