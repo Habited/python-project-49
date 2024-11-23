@@ -36,7 +36,7 @@ def game_prime():
                 elif result == 'no' and num_prime is False:
                     print('Correct!')
                     counter += 1
-                    random_num = random.randint(1, 100)    
+                    random_num = random.randint(1, 100)
                 else:
                     print(f"'{result}' is wrong answer ;(. "
                           f"Correct answer was "

@@ -18,18 +18,18 @@ def game_calc():
 
     while run:
 
-        random_number_1: int = random.randint(1, 100)
-        random_number_2: int = random.randint(1, 100)
+        random_num_1: int = random.randint(5, 10)
+        random_num_2: int = random.randint(1, 5)
         random_simbol: str = choice()
 
-        print(f'Question: {random_number_1} {random_simbol} {random_number_2}')
+        print(f'Question: {random_num_1} {random_simbol} {random_num_2}')
 
         if random_simbol == '+':
-            true_answer = random_number_1 + random_number_2
+            true_answer = random_num_1 + random_num_2
         elif random_simbol == '-':
-            true_answer = random_number_1 - random_number_2
+            true_answer = random_num_1 - random_num_2
         else:
-            true_answer = random_number_1 * random_number_2
+            true_answer = random_num_1 * random_num_2
         result: str = input('You answer: ')
 
         if result.isdigit():
