@@ -7,7 +7,7 @@ def game_parity_check():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     run: bool = True
-    counter = 0
+    counter: int = 0
 
     while run:
         number: int = random.randint(1, 100)
