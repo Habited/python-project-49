@@ -26,8 +26,8 @@ def game_parity_check():
                     number = random.randint(1, 1000)
                 else:
                     print(f"'yes' is wrong answer ;(. "
-                          f"Correct answer was 'no'.\n"
-                          f"Let's try again, {name}!")
+                          f"Correct answer was 'no'.")
+                    print(f"Let's try again, {name}!")
                     break
             else:
                 print('Correct!')
