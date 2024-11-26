@@ -15,6 +15,5 @@ def get_answer_and_player_responce():
 
 
 def run_even_games():
-    print()
     return run_games(EVEN, NUMBER_OF_ROUNDS,
                      get_answer_and_player_responce)
