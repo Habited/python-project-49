@@ -10,8 +10,7 @@ def is_even(num):
 def get_answer_and_player_responce():
     num: int = randint(1, 100)
     yes_or_no_answer: str = 'yes' if is_even(num) else 'no'
-    player_responce: str = input(f'Question: {num}\nYour answer: ')
-    return yes_or_no_answer, player_responce
+    return yes_or_no_answer, num
 
 
 def run_even_games():

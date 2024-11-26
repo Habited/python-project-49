@@ -1,15 +1,16 @@
 import prompt
 
 
-def run_games(list_of_question, number_of_rounds,
+def run_games(instruction, number_of_rounds,
               get_answer_and_player_responce):
-    print("Welcome to the Brain Games!")
-    name: str = prompt.string('May I have your name? ')
-    print(f"Hello, {name}!")
-    print(list_of_question)
+    name: str = prompt.string('Welcome to the Brain Games!\n'
+                              'May I have your name? ')
+    print(f'Hello, {name}!\n'
+          f'{instruction}')
 
     for _ in range(number_of_rounds):
-        correct_answer, player_responce = get_answer_and_player_responce()
+        correct_answer, num = get_answer_and_player_responce()
+        player_responce: str = input(f'Question: {num}\nYour answer: ')
         if correct_answer == player_responce:
             print('Correct!')
         else:
@@ -18,4 +19,4 @@ def run_games(list_of_question, number_of_rounds,
                   f"Let's try again, {name}!")
             return
 
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
