@@ -1,5 +1,4 @@
 import random
-from brain_games.cli import welcom_user
 
 
 def choice() -> str:
@@ -9,7 +8,6 @@ def choice() -> str:
 
 
 def game_calc():
-    name = welcom_user()
     print('What is the result of the expression?')
 
     run: bool = True
