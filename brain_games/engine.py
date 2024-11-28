@@ -9,12 +9,12 @@ def run_games(instruction, number_of_rounds,
           f'{instruction}')
 
     for _ in range(number_of_rounds):
-        correct_answer, num = get_answer_and_player_responce()
-        player_responce: str = input(f'Question: {num}\nYour answer: ')
-        if correct_answer == player_responce:
+        correct_answer, question = get_answer_and_player_responce()
+        player_responce: str = input(f'Question: {question}\nYour answer: ')
+        if correct_answer == eval(player_responce):
             print('Correct!')
         else:
-            print(f"'{player_responce}' is wrong answer ;(."
+            print(f"'{question}' is wrong answer ;(."
                   f"'Correct answer was '{correct_answer}'.\n"
                   f"Let's try again, {name}!")
             return

@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Set of mathematical minigames for the terminal"
 authors = ["Aleksey <pdskate88@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Habited/python-project-49"
 packages = [
   { include = "brain_games" },
 ]
@@ -11,6 +12,7 @@ packages = [
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:run_even_games"
+brain-calc = "brain_games.scripts.brain_calc:run_calc_games"
 
 
 [tool.poetry.dependencies]
@@ -19,7 +21,7 @@ prompt = "^0.4.1"
 
 
 [tool.poetry.group.dev.dependencies]
-flake8 = "^7.1.1"#!/usr/bin/env python3
+flake8 = "^7.1.1"
 
 [build-system]
 requires = ["poetry-core"]
