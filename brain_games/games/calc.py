@@ -10,7 +10,7 @@ def get_random_simbol():
 def get_answer_and_question():
     question = f"{randint(1, 100)} {get_random_simbol()} {randint(1, 100)}"
     correct_answer = eval(question)
-    return correct_answer, question
+    return str(correct_answer), question
 
 
 def run_calc_games():
