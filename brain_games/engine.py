@@ -10,7 +10,7 @@ def run_games(instruction, number_of_rounds,
 
     for _ in range(number_of_rounds):
         correct_answer, question = get_answer_and_player_responce()
-        print(correct_answer)
+        #print(correct_answer)
         player_responce: str = input(f'Question: {question}\nYour answer: ')
         if correct_answer == player_responce:
             print('Correct!')
