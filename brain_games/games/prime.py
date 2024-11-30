@@ -1,10 +1,9 @@
 from brain_games.consts import PRIME, NUMBER_OF_ROUNDS
-from random import randint
+from brain_games.util import get_random_num
 from brain_games.engine import run_games
 
 
 def is_prime(num):
-
     if num < 2:
         return False
     for i in range(2, int(num ** 0.5 + 1)):
@@ -15,9 +14,8 @@ def is_prime(num):
 
 
 def get_answer_and_question():
-    num: int = randint(1, 100)
-    question = str(num)
-    correct_answer = is_prime(num)
+    question = get_random_num()
+    correct_answer = is_prime(question)
     return str(correct_answer), question
 
 
