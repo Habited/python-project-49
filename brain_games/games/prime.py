@@ -16,7 +16,7 @@ def is_prime(num):
 def get_answer_and_question():
     question = get_random_num()
     correct_answer = is_prime(question)
-    return str(correct_answer), question
+    return correct_answer, question
 
 
 def run_prime_games():
