@@ -1,6 +1,6 @@
-from brain_games.consts import PRIME, NUMBER_OF_ROUNDS
-from brain_games.util import get_random_num
+from brain_games.consts import NUMBER_OF_ROUNDS, PRIME
 from brain_games.engine import run_games
+from brain_games.util import get_random_num
 
 
 def is_prime(num):

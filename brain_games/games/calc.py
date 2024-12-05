@@ -1,6 +1,6 @@
-from brain_games.consts import MATHEMATICAL_SYMBOL, CALC, NUMBER_OF_ROUNDS
-from brain_games.util import get_random_num, get_random_symbol
+from brain_games.consts import CALC, MATHEMATICAL_SYMBOL, NUMBER_OF_ROUNDS
 from brain_games.engine import run_games
+from brain_games.util import get_random_num, get_random_symbol
 
 
 def get_answer_and_question():

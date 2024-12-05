@@ -1,5 +1,6 @@
-from brain_games.consts import PROGRESSION, NUMBER_OF_ROUNDS
-from random import randint, choice
+from random import choice, randint
+
+from brain_games.consts import NUMBER_OF_ROUNDS, PROGRESSION
 from brain_games.engine import run_games
 
 
