@@ -13,7 +13,19 @@
 [![Actions Status](https://github.com/bazarovstas/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/bazarovstas/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5d6e3363a9f1e31f303f/maintainability)](https://codeclimate.com/github/bazarovstas/python-project-49/maintainability) 
 
-## Calc Game
+### Calc Game
 [![asciicast](https://asciinema.org/a/ws3fJc6zH0QaqtSQu5oSxLqn3.svg)](https://asciinema.org/a/ws3fJc6zH0QaqtSQu5oSxLqn3))
 
-<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+### Even Game
+[![asciicast](https://asciinema.org/a/8tDBegddIG5AwmVYrDMvdj6jJ.svg)](https://asciinema.org/a/8tDBegddIG5AwmVYrDMvdj6jJ))
+
+### GCD Game
+[![asciicast]((https://asciinema.org/a/uALnDZigUXx9eIrVfejxZHjwd.svg)](https://asciinema.org/a/uALnDZigUXx9eIrVfejxZHjwd))
+
+### Progression Game
+[![asciicast](https://asciinema.org/a/FhqNmOHkzFwJmBpIf48xECgh0.svg)](https://asciinema.org/a/FhqNmOHkzFwJmBpIf48xECgh0))
+
+### Prime Game
+[![asciicast](https://asciinema.org/a/ne1RZ2KFIRrwpnJBrOPT4I3Kg.svg)](https://asciinema.org/a/ne1RZ2KFIRrwpnJBrOPT4I3Kg))
+
+
