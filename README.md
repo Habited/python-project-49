@@ -8,8 +8,11 @@
 ### fourth game "Arithmetic progression". You need to launch the game with the command: "brain-progression.
 ### fifth game "Is it a prime number?". You need to launch the game with the command: "brain-prime.
 
+## Tech Stack:
+### python = "^3.10" poetry = "^1.8.2" prompt = "^0.4.1" pip = "^24.0"
 
-### Hexlet tests, linter and Code Climate status:
+
+## Hexlet tests, linter and Code Climate status:
 [![Actions Status](https://github.com/bazarovstas/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/bazarovstas/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5d6e3363a9f1e31f303f/maintainability)](https://codeclimate.com/github/bazarovstas/python-project-49/maintainability) 
 
