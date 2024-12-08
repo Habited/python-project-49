@@ -1,6 +1,19 @@
 <h1 align="center">Project: "Brain-games"</h1>
-<h2>The project is a series of games for calculating various mathematical expressions:</h2>
-<h3>To install the product, you must enter the command "python3 -m pip install dist/*.whl" in the terminal.</h3>
-<h3>- first game "Evenness Check". You need to launch the game with the command: "brain-even.</h3>
-<h3>- second game "Calculator". You need to launch the game with the command: "brain-calc.</h3>
-<h3>- third game "Greatest Common Divisor". You need to launch the game with the command: "brain-gcd.</h3>
+
+## The project is a series of games for calculating various mathematical expressions:
+### To install the product, you must enter the command "python3 -m pip install dist/*.whl" in the terminal.
+### first game "Evenness check". You need to launch the game with the command: "brain-even.
+### second game "Calculator". You need to launch the game with the command: "brain-calc.
+### third game "Greatest common divisor". You need to launch the game with the command: "brain-gcd.
+### fourth game "Arithmetic progression". You need to launch the game with the command: "brain-progression.
+### fifth game "Is it a prime number?". You need to launch the game with the command: "brain-prime.
+
+
+### Hexlet tests, linter and Code Climate status:
+[![Actions Status](https://github.com/bazarovstas/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/bazarovstas/python-project-49/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5d6e3363a9f1e31f303f/maintainability)](https://codeclimate.com/github/bazarovstas/python-project-49/maintainability) 
+
+## Calc Game
+[![asciicast](https://asciinema.org/a/ws3fJc6zH0QaqtSQu5oSxLqn3.svg)](https://asciinema.org/a/ws3fJc6zH0QaqtSQu5oSxLqn3))
+
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
