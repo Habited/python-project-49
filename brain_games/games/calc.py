@@ -1,16 +1,22 @@
-from brain_games.consts import CALC, MATHEMATICAL_SYMBOL, NUMBER_OF_ROUNDS
+from brain_games.consts import CALC, NUMBER_OF_ROUNDS
 from brain_games.engine import run_games
-from brain_games.util import get_random_num, get_random_symbol
+from random import choice, randint
 
 
-def get_answer_and_question():
-    question = (f"{get_random_num()} "
-                f"{get_random_symbol(MATHEMATICAL_SYMBOL)} "
-                f"{get_random_num()}")
-    correct_answer = eval(question)
-    return str(correct_answer), question
+def get_random_math_sign_and_result(first_num, second_num):
+    return choice([('+', first_num + second_num),
+                   ('-', first_num + second_num),
+                   ('*', first_num + second_num),
+                   ])
+
+
+def get_math_question_and_result():
+    first_num, second_num = randint(1, 100), randint(1, 100)
+    sign, result = get_random_math_sign_and_result(first_num, second_num)
+    question = f"{first_num} {sign} {second_num}"
+    return question, str(result)
 
 
 def run_calc_games():
     return run_games(CALC, NUMBER_OF_ROUNDS,
-                     get_answer_and_question)
+                     get_math_question_and_result)
