@@ -1,6 +1,6 @@
 from brain_games.consts import NUMBER_OF_ROUNDS, PRIME
 from brain_games.engine import run_games
-from brain_games.util import get_random_num
+from random import randint
 
 
 def is_prime(num):
@@ -15,7 +15,7 @@ def is_prime(num):
 
 
 def get_problem_and_answer():
-    problem_num = get_random_num()
+    problem_num = randint(1, 100)
     answer = 'yes' if is_prime(problem_num) else 'no'
 
     return problem_num, answer
