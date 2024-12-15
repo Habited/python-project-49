@@ -5,8 +5,8 @@ from random import choice, randint
 
 def get_random_math_sign_and_result(first_num, second_num):
     return choice([('+', first_num + second_num),
-                   ('-', first_num + second_num),
-                   ('*', first_num + second_num),
+                   ('-', first_num - second_num),
+                   ('*', first_num * second_num),
                    ])
 
 
