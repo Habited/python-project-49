@@ -1,6 +1,6 @@
 <h1 align="center">Project: "Brain-games"</h1>
 
-# The project is a series of games for calculating various mathematical expressions:
+### The project is a series of games for calculating various mathematical expressions:
 
 ## To install, do the following:
 #### 1. Install pipx with the command "python 3 -m pip install --pipx user".
@@ -33,7 +33,7 @@
 [![asciicast](https://asciinema.org/a/8tDBegddIG5AwmVYrDMvdj6jJ.svg)](https://asciinema.org/a/8tDBegddIG5AwmVYrDMvdj6jJ)
 
 #### GCD Game
-[![asciicast]((https://asciinema.org/a/uALnDZigUXx9eIrVfejxZHjwd.svg)](https://asciinema.org/a/uALnDZigUXx9eIrVfejxZHjwd)
+[![asciicast](https://asciinema.org/a/uALnDZigUXx9eIrVfejxZHjwd.svg)](https://asciinema.org/a/uALnDZigUXx9eIrVfejxZHjwd)
 
 #### Progression Game
 [![asciicast](https://asciinema.org/a/FhqNmOHkzFwJmBpIf48xECgh0.svg)](https://asciinema.org/a/FhqNmOHkzFwJmBpIf48xECgh0)
