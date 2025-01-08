@@ -1,15 +1,15 @@
-from random import choice, randint
-
-from brain_games.consts import NUMBER_OF_ROUNDS, PROGRESSION
+from random import choice
+from brain_games.util import get_random_num
+from brain_games.consts import PROGRESSION
 from brain_games.engine import run_games
 
 
 def get_progression_and_elem():
     progression: list = []
-    elem_prog: int = randint(1, 100)
-    step_prog: int = randint(1, 10)
+    elem_prog: int = get_random_num(1, 100)
+    step_prog: int = get_random_num(1, 10)
 
-    for _ in range(randint(5, 10)):
+    for _ in range(get_random_num(5, 10)):
         progression.append(str(elem_prog))
         elem_prog += step_prog
 
@@ -30,5 +30,4 @@ def get_answer_and_question():
 
 
 def run_progression_games():
-    return run_games(PROGRESSION, NUMBER_OF_ROUNDS,
-                     get_answer_and_question)
+    return run_games(PROGRESSION, get_answer_and_question)
